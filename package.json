@@ -1,0 +1,28 @@
+{
+  "name": "@bimproject/rabbitmq",
+  "version": "0.1.0",
+  "description": "Simple RabbitMQ client.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimprojectcloud/rabbitmq.git"
+  },
+  "homepage": "https://github.com/bimprojectcloud/rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "0.8.0"
+  },
+  "devDependencies": {
+    "@bimproject/eslint-config": "github:bimprojectcloud/eslint-config",
+    "eslint": "7.30.0",
+    "eslint-plugin-import": "2.24.0",
+    "eslint-plugin-node": "11.1.0",
+    "jest": "27.0.6",
+    "jest-junit": "12.2.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
