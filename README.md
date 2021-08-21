@@ -4,7 +4,7 @@
 
 ### Environment variables
 
-- `NAME` application name (added as `appId` property to published messages)
+- `RABBITMQ_APPID` `appId` property to be sent with published messages
 - `RABBITMQ_DLX` dead letter exchange
 - `RABBITMQ_QUEUE`
 - `RABBITMQ_URI`
