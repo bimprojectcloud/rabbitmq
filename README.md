@@ -4,10 +4,15 @@
 
 ### Environment variables
 
+#### Required
+
+- `RABBITMQ_URI`
+
+#### Optional
+
 - `RABBITMQ_APPID` `appId` property to be sent with published messages
 - `RABBITMQ_DLX` dead letter exchange
 - `RABBITMQ_QUEUE`
-- `RABBITMQ_URI`
 
 ## Notes
 
