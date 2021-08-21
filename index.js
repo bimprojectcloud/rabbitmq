@@ -1,6 +1,8 @@
 const assertions = require("./lib/assertions");
 const publishing = require("./lib/publishing");
+const { publish, reply } = require("./lib/publishing");
 const subscription = require("./lib/subscription");
+const { subscribe } = require("./lib/subscription");
 
 /**
  * Waits for subscription and publishing clients to connect and performs
@@ -25,7 +27,7 @@ async function disconnect() {
 module.exports = {
     connect,
     disconnect,
-    publish: publishing.publish,
-    reply: publishing.reply,
-    subscribe: subscription.subscribe,
+    publish,
+    reply,
+    subscribe,
 };
