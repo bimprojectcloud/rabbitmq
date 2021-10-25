@@ -1,4 +1,4 @@
-const { assertExchange, assertQueue, bindQueue } = require("./lib/assertions");
+const assertions = require("./lib/assertions");
 const publishing = require("./lib/publishing");
 const { publish, reply } = require("./lib/publishing");
 const subscription = require("./lib/subscription");
@@ -25,9 +25,7 @@ async function disconnect() {
 }
 
 module.exports = {
-    assertExchange,
-    assertQueue,
-    bindQueue,
+    assertions,
     connect,
     disconnect,
     publish,
