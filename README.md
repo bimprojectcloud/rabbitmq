@@ -11,8 +11,6 @@
 #### Optional
 
 - `RABBITMQ_APPID` `appId` property to be sent with published messages
-- `RABBITMQ_DLX` dead letter exchange
-- `RABBITMQ_QUEUE`
 
 ## Notes
 

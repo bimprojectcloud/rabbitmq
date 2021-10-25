@@ -11,13 +11,6 @@ const { subscribe, unsubscribeAll } = require("./lib/subscription");
 async function connect() {
     await subscription.client;
     await publishing.client;
-
-    if (process.env.RABBITMQ_QUEUE) {
-        await assertQueueAndDLX(
-            process.env.RABBITMQ_QUEUE,
-            process.env.RABBITMQ_DLX,
-        );
-    }
 }
 
 /**
