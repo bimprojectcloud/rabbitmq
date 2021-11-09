@@ -8,10 +8,6 @@
 
 - `RABBITMQ_URI`
 
-#### Optional
-
-- `RABBITMQ_APPID` `appId` property to be sent with published messages
-
 ## Notes
 
 - Both publishing and subscription use separate connection with single channel. The reason being that saturation of one should not slow down the other.
