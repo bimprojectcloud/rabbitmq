@@ -1,4 +1,5 @@
 const assertions = require("./lib/assertions");
+const helpers = require("./lib/helpers");
 const publishing = require("./lib/publishing");
 const { publish, reply } = require("./lib/publishing");
 const subscription = require("./lib/subscription");
@@ -28,6 +29,7 @@ module.exports = {
     assertions,
     connect,
     disconnect,
+    helpers,
     publish,
     reply,
     subscribe,
