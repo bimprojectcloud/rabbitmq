@@ -1,4 +1,4 @@
-const assertions = require("./lib/assertions");
+const checks = require("./lib/checks");
 const helpers = require("./lib/helpers");
 const publishing = require("./lib/publishing");
 const { publish, reply } = require("./lib/publishing");
@@ -26,7 +26,7 @@ async function disconnect() {
 }
 
 module.exports = {
-    assertions,
+    checks,
     connect,
     disconnect,
     helpers,
