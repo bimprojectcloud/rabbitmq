@@ -1,6 +1,6 @@
 {
   "name": "@bimproject/rabbitmq",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "Simple RabbitMQ client.",
   "main": "index.js",
   "scripts": {
